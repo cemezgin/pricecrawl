@@ -1,9 +1,9 @@
 package trendyol
 
 import (
-	"crawltest/db"
-	"crawltest/models"
 	"fmt"
+	"pricecrawl.tech/db"
+	"pricecrawl.tech/models"
 	"strings"
 	"time"
 

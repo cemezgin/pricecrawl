@@ -1,12 +1,12 @@
 package db
 
 import (
-	"crawltest/models"
 	"github.com/jinzhu/gorm"
+	"pricecrawl.tech/models"
 )
 
 func Connect() *gorm.DB {
-	db, err := gorm.Open("postgres", "host=127.0.0.1 port=5432 dbname=crawltest sslmode=disable")
+	db, err := gorm.Open("postgres", "host=127.0.0.1 port=5432 dbname=pricecrawl.tech sslmode=disable")
 
 	if err != nil {
 		panic("failed to connect database")
