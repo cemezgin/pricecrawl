@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/jinzhu/gorm"
-	"pricecrawl.tech/models"
+	"pricecrawl/models"
 )
 
 func Connect() *gorm.DB {

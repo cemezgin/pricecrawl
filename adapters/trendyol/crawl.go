@@ -2,8 +2,8 @@ package trendyol
 
 import (
 	"fmt"
-	"pricecrawl.tech/db"
-	"pricecrawl.tech/models"
+	"pricecrawl/db"
+	"pricecrawl/models"
 	"strings"
 	"time"
 
